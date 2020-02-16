@@ -13,6 +13,7 @@ RUN npm run build
 
 #ngnix start by default when we build ngnix
 FROM nginx
+EXPOSE 80
 #I WANT TO COPY SOMETHIN FROM BUILDER PHASE, 
 # <THEN SPECIFY THE FOLDER WE WANT TO COPY>
 # <THEN FOLDER WE WANT TO COPY YO>
