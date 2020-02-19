@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
-          Navbar
+          ULIFE
         </a>
         <button
           class="navbar-toggler"
@@ -29,12 +29,17 @@ function App() {
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                Features
+                Clubs
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                Pricing
+                Jobs
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Business
               </a>
             </li>
             <li class="nav-item">
@@ -50,6 +55,7 @@ function App() {
           </ul>
         </div>
       </nav>
+      <div>Frontend Deployed</div>
     </div>
   );
 }
